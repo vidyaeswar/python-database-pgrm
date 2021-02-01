@@ -1,0 +1,7 @@
+create database student
+use student
+create table details(name varchar(30),course varchar(10),address varchar(30),phone int)
+insert into details values('vidya','bca','hosur','1234')
+insert into details values('john','betech','banglore','123456789')
+insert into details values('smith','betech','banglore','890483153') 
+select * from details
